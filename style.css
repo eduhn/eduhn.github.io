@@ -60,6 +60,9 @@ nav{
         background-color: var(--cor4);
         transition: .6s;
     }
+    nav>abbr{
+        container-type: none;
+    }
 
 main{
     background-color: white;
