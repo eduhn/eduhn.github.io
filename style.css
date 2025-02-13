@@ -21,6 +21,13 @@
     margin: 0px;
     padding: 0px;
 }
+q{
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: var(--cor5) wavy underline;
+    margin: auto;
+    padding: 20%;
+}
 
 body{
     background-color: var(--cor0);
