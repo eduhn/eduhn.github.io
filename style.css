@@ -1,8 +1,7 @@
 @charset "UTF-8";
 @font-face {
     font-family: 'doid';
-    src: url(pacote-projeto-d010/fontes/idroid.otf) format(opentype);
-
+    src: url(pacote-projeto-d010/fontes/idroid.otf) format("opentype");
 }
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Parisienne&display=swap');
 
@@ -44,7 +43,6 @@ header{
         font-family: var(--font-destaque);
         font-size: 3em;
         text-shadow: 10px 5px 10px rgba(0, 0, 0, 0.556);
-
     }
     header p{
         color: white;
@@ -67,9 +65,7 @@ nav{
         background-color: var(--cor4);
         transition: .6s;
     }
-    nav>abbr{
-        container-type: none;
-    }
+
 
 main{
     background-color: white;
@@ -123,7 +119,6 @@ main{
           height: 100%;
         }
 
-
 aside{
     background-color: var(--cor1);
     padding: 10px;
@@ -134,7 +129,7 @@ aside{
         padding: 10px;
         margin: -10px -10px 0px -10px ;
         border-radius: 10px 10px 0px 0px;
-        color: white
+        color: white;
     }
     aside p{
         text-indent: 10px;
