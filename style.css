@@ -1,161 +1,36 @@
-@charset "UTF-8";
-@font-face {
-    font-family: 'doid';
-    src: url(pacote-projeto-d010/fontes/idroid.otf) format("opentype");
-}
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Parisienne&display=swap');
-
-:root{
-    --cor0:#c5ebd6;
-    --cor1:#83e1ad;
-    --cor2:#3ddc84;
-    --cor3:#2fa866;
-    --cor4:#1a5c37;
-    --cor5:#00371c;
-    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
-    --font-destaque:'Bebas Neue', cursive;
-    --font-android:'doid', cursive;
-}
-*{
-    margin: 0px;
-    padding: 0px;
-}
-q{
-    font-weight: bolder;
-    font-style: italic;
-    text-decoration: var(--cor5) wavy underline;
-    margin: auto;
-    padding: 20%;
-}
 
 body{
-    background-color: var(--cor0);
-    font-family: var(--font-padrao);
-}
-header{
-    background-image: linear-gradient(to top, var(--cor5), var(--cor3));
-    min-height: 150px;
+    background-color: rgb(56, 56, 56);
+    background-repeat: no-repeat;
+    color: aliceblue;
     text-align: center;
-    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-    header h1{
-        color: white;
-        font-family: var(--font-destaque);
-        font-size: 3em;
-        text-shadow: 10px 5px 10px rgba(0, 0, 0, 0.556);
-    }
-    header p{
-        color: white;
-        font-size: 1.2em;
-        padding-top: 40px;
-    }
-nav{
-    background-color: var(--cor5);
-    padding: 10px;
-    box-shadow: -5px 5px 20px var(--cor5);
-}
-    nav>a{
-        color: var(--cor0);
-        text-decoration: none;
-        margin: 10px;
-        padding: 10px;
-        border-radius: 5%;
-    }
-    nav>a:hover{
-        background-color: var(--cor4);
-        transition: .6s;
-    }
-
-
-main{
-    background-color: white;
-    max-width: 800px;
-    min-width: 320px;
-    padding: 6px 10px;
+div{
     margin: auto;
+    margin-top: 10px;
+    padding: 3px 10px 20px 10px;
+    background-color: rgba(0, 100, 0, 0.684);
+    border-radius: 10px;
+    box-shadow: 1px 1px black;
+    max-width: 600px;
 }
-    main h1, h2{
-        color: var(--cor5);
-        font-family: var(--font-android);
-    }
-    main h2{
-        color: var(--cor4);
-        background-image: linear-gradient(to right, var(--cor1), transparent);
-    }
-    main>p{
-        margin: 15px 0px;
-        text-indent: 30px;
-        line-height: 2em;
-    }
-    main>p>strong{
-        color: var(--cor4);
-        font-weight: bolder;
-    }
-    main a{
-        background-color: var(--cor1);
-        text-decoration: none;
-        color: var(--cor5);
-        font-weight: bold;
-    }
-        main a:hover{
-            text-decoration: underline;
-            color: var(--cor4);
-        }
-    img{
-        width: 100%;
-    }
-    .vv{
-        background-color: var(--cor5);
-        margin: 0px -10px 30px -10px;
-        padding: 20px;
-        padding-bottom: 50%;
-        position: relative;
-    }
-        .vv>iframe{
-          position: absolute;
-          top: 0%;
-          left: 5%;
-          width: 90%;
-          height: 100%;
-        }
-
-aside{
-    background-color: var(--cor1);
-    padding: 10px;
-    border-radius: 10px 10px 0px 0px;
+div#resultado{
+    background-color: brown;
+    padding: 10px 0px 15px 0px;
 }
-    aside h3{
-        background-color: var(--cor4);
-        padding: 10px;
-        margin: -10px -10px 0px -10px ;
-        border-radius: 10px 10px 0px 0px;
-        color: white;
-    }
-    aside p{
-        text-indent: 10px;
-        line-height: 1.25em;
-        padding: 10px 5px 5px 5px;
-    }
-    aside ul{
-        list-style-type: '\1F5F8\00a0';
-        list-style-position: inside;
-        columns: 2;
-        margin: auto;
-    }
 
-footer{
-    background-color: var(--cor5);
-    color: white;
+input{
+    margin: 0px 0px 3px 0px;
+    border-radius: 7px;
     text-align: center;
-    padding: 10px;
 }
-    footer a{
-        color: white;
-        text-decoration: none;
-        font-weight: bolder;
-    }
-    footer a:hover{
-        color: var(--cor1);
-        text-decoration: underline;
-        transition: 1s;
-    }
+
+button{
+    margin: 10px 0px 0px 0px;
+    border-radius: 3px;
+}
+
+a{
+    color: lightgreen;
+}
