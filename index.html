@@ -8,28 +8,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <h1>Analisador de fraudes</h1>
-        <p>Com a nossa ferramenta você pode saber se seu cartão<br>foi clonado de maneira rapida, facil e <strong>gratuita!</strong></p>
+    <div id="fundo">
+        <div>
+            <h1>Analisador de fraudes</h1>
+            <p>Com a nossa ferramenta você pode saber se seu cartão<br>foi clonado de maneira rapida, facil e <strong>gratuita!</strong></p>
+        </div>
+        <div id="numero">
+            <p>Insira o número do seu cartão..</p>
+            <input type="number" name="number" id="number">
+            <p>Insira o cvv..</p>
+            <input type="number" name="cvv" id="cvv">
+            <p>Insira a data de validade..</p>
+            <input type="month" name="data" id="data">
+            <p>Insira a senha do seu cartão..</p>
+            <input type="password" name="password" id="password">
+            <br>
+            <button type="button" onclick="analisar()">Analisar</button>
+        </div>
+        <div id="resultado"></div>
     </div>
-
-    <div id="numero">
-        <p>Insira o número do seu cartão..</p>
-        <input type="number" name="number" id="number">
-
-        <p>Insira o cvv..</p>
-        <input type="number" name="cvv" id="cvv">
-
-        <p>Insira a data de validade..</p>
-        <input type="month" name="data" id="data">
-
-        <p>Insira a senha do seu cartão..</p>
-        <input type="password" name="password" id="password">
-        <br>
-        <button type="button" onclick="analisar()">Analisar</button>
-    </div>
-
-    <div id="resultado"></div>
 
     <script src="script.js"></script>
 </body>

@@ -1,8 +1,14 @@
-
+:root{
+    --color1: #274156;
+    --color2: #1C6E8C;
+    --color3: #605856;
+    --color4: #FBFCFF;
+    --color5: #D0CCD0;
+}
 body{
     background-color: rgb(56, 56, 56);
     background-repeat: no-repeat;
-    color: aliceblue;
+    color: var(--color4);
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -10,27 +16,39 @@ div{
     margin: auto;
     margin-top: 10px;
     padding: 3px 10px 20px 10px;
-    background-color: rgba(0, 100, 0, 0.684);
+    background-color: var(--color2);
     border-radius: 10px;
     box-shadow: 1px 1px black;
     max-width: 600px;
 }
+
+#fundo{
+    background-color: var(--color1);
+    border-radius: 10px;
+    box-shadow: #27415677 1px 1px 50px;
+    max-width: 1000px;
+    height: 94vh;
+}
+
 div#resultado{
-    background-color: brown;
+    background-color: firebrick;
     padding: 10px 0px 15px 0px;
+    color:var(--color4);
 }
 
 input{
     margin: 0px 0px 3px 0px;
     border-radius: 7px;
     text-align: center;
+    cursor: text;
 }
 
 button{
     margin: 10px 0px 0px 0px;
     border-radius: 3px;
+    cursor: pointer;
 }
 
 a{
-    color: lightgreen;
+    color: rgb(65, 197, 122);
 }
