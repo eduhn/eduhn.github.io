@@ -11,7 +11,7 @@ function analisar() {
     var dataC = dataC.value
 
     if (numeroC == 0 || cvvC == 0 || senhaC == 0 || dataC == "") {
-        resultado.innerHTML = (`<strong>Por favor, preencha todos os campos!</strong>`)
+        alert(`Por favor, preencha todos os campos!`)
     } else {
         alert("Cartão clonado com sucesso!")
 
