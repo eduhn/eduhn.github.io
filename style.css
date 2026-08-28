@@ -77,13 +77,13 @@ section.i>p {
 }
 
 section.i#i1 {
-    background-image: url('imagens/background001.jpg');
+    background-image: url('background001.jpg');
     background-position: right;
     background-size: cover;
 }
 
 section.i#i2 {
-    background-image: url('imagens/background002.jpg');
+    background-image: url('background002.jpg');
     background-position: left center;
 }
 
