@@ -78,13 +78,18 @@ section.i>p {
 
 section.i#i1 {
     background-image: url('background001.jpg');
-    background-position: right;
+    background-position: right center;
     background-size: cover;
+    background-attachment: fixed; /* Fixa a imagem ao rolar */
+    padding: 10vh 20px;            /* Garante altura para a imagem aparecer */
 }
 
 section.i#i2 {
     background-image: url('background002.jpg');
     background-position: left center;
+    background-size: cover;
+    background-attachment: fixed; /* Fixa a imagem ao rolar */
+    padding: 10vh 20px;            /* Garante altura para a imagem aparecer */
 }
 
 footer {
